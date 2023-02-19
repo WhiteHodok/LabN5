@@ -10,8 +10,8 @@ int main() {
     cout << "Enter the second string: ";
     getline(cin, str2);
 
-    // Преобразуем строки в нижний регистр и сортируем символы
-    transform(str1.begin(), str1.end(), str1.begin(), ::tolower);
+    // Преобразуем строки в нижний регистр и сортируем символы , используя библиотеку algorithm 
+    transform(str1.begin(), str1.end(), str1.begin(), ::tolower); // .begin начало элемента с которого начинается сортировка , .end соответственно конец , 
     transform(str2.begin(), str2.end(), str2.begin(), ::tolower);
     sort(str1.begin(), str1.end());
     sort(str2.begin(), str2.end());
