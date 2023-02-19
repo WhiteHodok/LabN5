@@ -3,7 +3,7 @@
 using namespace std;
 //Наша функция
 string reverseString(string str) {
-    reverse(str.begin(), str.end());
+    reverse(str.begin(), str.end()); // begin и ендом указываем с какого по какой символ делаем реверс
     return str;
 }
 //Как юзаем
