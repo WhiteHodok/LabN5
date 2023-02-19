@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-#include <string>
+//#include <string>
 using namespace std;
 
 string longest_common_substring(string str1, string str2) {
