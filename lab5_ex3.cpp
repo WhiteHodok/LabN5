@@ -10,7 +10,7 @@ int main() {
     getline(cin, str);
     cout << "Input symbol: ";
     cin >> ch;
-    size_t index = str.find(ch);
+    int index = str.find(ch); // index определяет вектор индекса , 
     if (index != string::npos) {
         cout << "Index first input of symbol '" << ch << "' in string \"" << str << "\": " << index << endl;
     }
