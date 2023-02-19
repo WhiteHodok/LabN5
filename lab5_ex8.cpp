@@ -9,7 +9,7 @@ int main() {
     cout << "Enter a string: ";
     getline(cin, str);
 
-    for (size_t i = 0; i < str.length(); i++) {
+    for (int i = 0; i < str.length(); i++) {
         if (str[i] == ' ') {
             word_count++;
         }
