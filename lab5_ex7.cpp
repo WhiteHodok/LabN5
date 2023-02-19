@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-#include <string>
+//#include <string>
 using namespace std;
 
 int main() {
@@ -12,7 +12,7 @@ int main() {
     cout << "Enter a character to replace: ";
     cin >> ch;
 
-    for (size_t i = 0; i < str.length(); i++) {
+    for (int i = 0; i < str.length(); i++) {
         if (str[i] == ch) {
             str[i] = ' ';
         }
