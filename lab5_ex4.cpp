@@ -1,6 +1,6 @@
 ﻿#include <iostream>
-#include <string>
-#include <algorithm> // Мне не пришло идей в голову , как можно реализовать сортировку и проверку строк , поэтому я обратился к этой библиотеке
+//#include <string>  https://learn.microsoft.com/ru-ru/cpp/standard-library/string?view=msvc-170 - доступное объяснение + эта библиотека импортируется по дефолту 
+#include <algorithm> // Мне не пришло идей в голову , как можно реализовать сортировку и проверку строк , поэтому я обратился к этой библиотеке - https://learn.microsoft.com/ru-ru/cpp/standard-library/algorithm?view=msvc-170
 using namespace std;
 
 int main() {
