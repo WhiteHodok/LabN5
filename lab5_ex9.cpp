@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-#include <string>
+//#include <string>
 using namespace std;
 
 int main() {
@@ -29,3 +29,4 @@ int main() {
     return 0;
 }
 
+// Тут получился не совсем палиндром(сравнивающий каждый символ идущий в опр порядке) , а сравнивание длины строк с последующим движением в -1 сторону
