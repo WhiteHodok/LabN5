@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-#include <string>
+//#include <string>
 #include <algorithm>
 using namespace std;
 
@@ -8,7 +8,7 @@ int main() {
     cout << "Enter a string: ";
     getline(cin, str);
 
-    transform(str.begin(), str.end(), str.begin(), ::toupper);
+    transform(str.begin(), str.end(), ::toupper);
 
     cout << "Uppercase string: " << str << endl;
 
